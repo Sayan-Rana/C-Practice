@@ -27,6 +27,12 @@ void division();
 
 int main()
 {
+
+    std::string s;
+    std::getline(cin, s);
+
+    
+
     int whatTheyWant;
     whatTheyWant = getWhatTheyWant();
     while(whatTheyWant<5){
