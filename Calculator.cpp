@@ -1,3 +1,19 @@
+/* ***************************************
+ * 
+ * User Input : 
+ * 5 + 16
+ * 7 / 9
+ * 32 * 56
+ * 90 - 67
+ * 
+ * <Whitespace><Operator><Whitespace>
+ * 
+ * 
+ * 
+ */
+
+
+
 #include <iostream>
 #include <string>
 #include <fstream>
@@ -37,11 +53,11 @@ int getWhatTheyWant(){
 
     int choice;
 
-    cout << "Press 1 for Addition"<<endl;
-    cout << "Press 2 for Substraction"<<endl;
-    cout << "Press 3 for Multiplication"<<endl;
-    cout << "Press 4 for Division"<<endl;
-    cout << "Press 5 to Quit"<<endl<<endl;
+    std::cout << "Press 1 for Addition"<<endl;
+    std::cout << "Press 2 for Substraction"<<endl;
+    std::cout << "Press 3 for Multiplication"<<endl;
+    std::cout << "Press 4 for Division"<<endl;
+    std::cout << "Press 5 to Quit"<<endl<<endl;
 
     cin >> choice;
 
